@@ -29,11 +29,12 @@ It supports adding books, managing users, issuing and returning books, and viewi
 
 ## Folder Structure
 src/
- ├── Book.java
- ├── User.java
- ├── IssueRecord.java
- ├── Library.java
- └── Main.java
+1. Book.java           # Book model class
+2. User.java           # User model class
+3. IssueRecord.java    # Issue/Return data model
+4. Library.java        # Core logic and operations
+5. Main.java           # Entry point + console menu
+
 
 ## Author
 Ayush Raj
